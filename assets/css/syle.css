@@ -14,6 +14,7 @@
     font-size: 14px;
     color:  grey;
     text-decoration: none;
+    padding-top: 25px;
 }
 header {
     background-color: white;
@@ -111,21 +112,103 @@ button {
 
 /* Screen size options */
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 980px) {
     .about_me {
-        width: 620px;
+        width: 95%;
+    }
+    header {
+        width: 100%;
+    }
+    .headercontent {
+        width: 100%;
+    }
+    .nav {
+        padding-right: 20px;
+        float: right;
+    }
+    .message {
+        width: 90%;
+    }
+    .text {
+        width: 90%;
+    }
+    .contact_form {
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about_me {
-        width:745px;
+      width: 95%;
+    }
+    header{
+        width: 100%;
+    }
+    h1 {
+        float: none;
+    }
+    .nav {
+        float: right;
+        padding-right: 20px;
+    }
+    .headercontent {
+        width: 100%;
+    }
+    .message {
+        width: 90%;
+    }
+    .text {
+        width: 90%;
+    }
+    .contact_form {
+        width: 90%;
+    }
+    form {
+        width: 90%;
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 640px) {
     .about_me {
-        width:950px;
+        width: 95%;
+    }
+    header {
+        width: 100%;
+    }
+    .headshot {
+        width: 50%;
+        float: none;
+        height: auto;
+    }
+    h1 {
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .nav {
+        float: none;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .text {
+        float: none;
+        width: 90%;
+    }
+    .headercontent {
+        width: 100%;
+    }
+    .message {
+        width: 90%;
+    }
+    .contact_form {
+        width: 90%;
+    }
+    form {
+        width: 90%;
     }
 }
-
