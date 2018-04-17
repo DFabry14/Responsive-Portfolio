@@ -128,13 +128,16 @@ button {
         float: right;
     }
     .message {
-        width: 90%;
+        width: 95%;
     }
     .text {
         width: 90%;
     }
     .contact_form {
         width: 90%;
+    }
+    input {
+        width: 95%;
     }
 }
 
@@ -156,7 +159,7 @@ button {
         width: 100%;
     }
     .message {
-        width: 90%;
+        width: 95%;
     }
     .text {
         width: 90%;
@@ -166,6 +169,9 @@ button {
     }
     form {
         width: 90%;
+    }
+    input {
+        width: 95%
     }
 }
 
@@ -203,12 +209,15 @@ button {
         width: 100%;
     }
     .message {
-        width: 90%;
+        width: 95%;
     }
     .contact_form {
         width: 90%;
     }
     form {
-        width: 90%;
+        width: 95%;
+    }
+    input {
+        width: 95%
     }
 }
